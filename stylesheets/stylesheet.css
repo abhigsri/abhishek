@@ -15,6 +15,12 @@ a {
   a:hover {
     text-decoration: underline; }
 
+a.project-tagline {
+  color: #c1cedb;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -55,9 +61,11 @@ a {
 
 .page-header {
   color: #fff;
-  text-align: center;
+  /* text-align: center; */
   background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  /* background-image: url("github.png"); */
+  background-image: linear-gradient(120deg, #155799, #159957); 
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
